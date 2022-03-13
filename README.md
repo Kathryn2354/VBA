@@ -3,7 +3,7 @@
 
 
 # Explanation of the VBA Code
-`Public Sub markdown()
+``Public Sub markdown()
 
 Dim cell As Range
 Dim selectedRange As Range
@@ -110,7 +110,7 @@ For Each row In selectedRange.Rows
 
     Next row
  
-End Sub`
+End Sub``
 
 
 [Data Science Schedule.zip](https://github.com/Kathryn2354/VBAredo/files/8240549/Data.Science.Schedule.zip)
