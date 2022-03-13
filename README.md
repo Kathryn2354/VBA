@@ -1,8 +1,15 @@
 # VBAredo
 
+# Instructions for the this vba redo:
 
+If a column is blue at the top you will include the column
+If a cell is orange you will not include the text for that cell in your markdown table
+If the cell is yellow you will not include the hyperlink for that cell. 
 
 # Explanation of the VBA Code
+
+Since the professor 
+
     `Public Sub markdown()
 
     Dim cell As Range
