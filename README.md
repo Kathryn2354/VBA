@@ -3,8 +3,7 @@
 
 
 # Explanation of the VBA Code
-`   Public Sub markdown()
-
+`Public Sub markdown()
     Dim cell As Range
     Dim selectedRange As Range
 
