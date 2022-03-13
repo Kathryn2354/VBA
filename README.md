@@ -112,9 +112,17 @@
  
     End Sub`
 
+This is code for when you selected the range of cell in the excel sheet 
 
-[Data Science Schedule.zip](https://github.com/Kathryn2354/VBAredo/files/8240549/Data.Science.Schedule.zip)
 
+
+
+
+# User Guide VBA Code
+
+## Step 1
+
+<p> open up a blank excel sheet. </p>
 
 
 
