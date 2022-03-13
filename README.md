@@ -2,6 +2,12 @@
 
 
 
+# Explanation of the VBA Code
+
+
+
+[Data Science Schedule.zip](https://github.com/Kathryn2354/VBAredo/files/8240549/Data.Science.Schedule.zip)
+
 
 
 
