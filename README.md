@@ -112,7 +112,7 @@
  
     End Sub`
 
- This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked will put in markdown format in the visual basic windows. You must copy the created visual basic markdown format table to a github markdown file in order to make it work. Since VBA only work once you must your vba window or otherwise it missed up your excel sheet. 
+ This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked will put in markdown format in the visual basic windows. You must copy the created visual basic markdown format table to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
 
 
 
