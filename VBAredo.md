@@ -210,6 +210,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p> Open up a blank excel sheet. </p>
 
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158239887-4df97f1f-668a-4b38-b90f-3529c977b934.png">
 
 
 ### Step 2
