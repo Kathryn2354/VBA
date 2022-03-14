@@ -191,7 +191,6 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
 
 This code remove a hyperlink for Cell D18 in the excel sheet.
 
-
 # User Guide to open macros 
 
 ## this is for those who do not have the developer ribbon in the excel ribbon
@@ -200,42 +199,26 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p> Open up a blank excel sheet. </p>
 
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158239887-4df97f1f-668a-4b38-b90f-3529c977b934.png">
-
 
 ### Step 2
 
 <p> Right click the excel ribbon. A seperate pop up will come up.</p>
 
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158225855-01d11e01-f637-4c29-a76e-9c0dbcfeb7b3.png">
-
 ### Step 3
 
 <p> Click on the customize ribbon on the pop up then it will take you to a different window.<p>
-    
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158227427-dd92d0a7-c981-4740-88bb-49f20f679b0f.png">
     
 ### Step 4 
 
 <p>Once you are on The customize ribbon window you need to click on checkbox for developer ribbon and then click ok. </p>
 
-<img width="700 alt="image" src="https://user-images.githubusercontent.com/96843197/158230464-9020aaad-4857-4548-9018-44c972fbbe27.png">
-
 ### Step 5 
 
 <p> After you click ok on the customized ribbon window the developer ribbon will appear on the excel ribbon at the top of the excel sheet. You must click on the developer tab first.</p>
 
-<img width="90" alt="image" src="https://user-images.githubusercontent.com/96843197/158233210-99c1f568-9bdc-46da-acce-cb1578e5c438.png">
-
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158233271-e3a62c12-6c95-49d1-9f64-dd8ecae08652.png">
-
 ### Step 6
 
 <p> once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
-
-<img width="90" alt="image" src="https://user-images.githubusercontent.com/96843197/158235902-9f99114b-a8e8-411c-88ef-cfb41c27f6d5.png">
-
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158237085-ef7900af-a058-44b7-b55f-4f3f1017fe64.png">
 
 ## This is for those who have the developer ribbon in the excel ribbon
 
