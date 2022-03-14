@@ -257,7 +257,12 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 ![image](https://user-images.githubusercontent.com/96843197/158246790-dfc1d6ed-893c-4e95-a373-702709e25ea3.png)
 
+<h3>Step 3</h3> 
 
+<p>once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
+
+![image](https://user-images.githubusercontent.com/96843197/158246914-e0540511-90c7-49e8-8490-ab46966f2ca2.png)
+![image](https://user-images.githubusercontent.com/96843197/158247018-d67dd170-7ee2-458a-be79-f2755a7942db.png)
 
 <h1>This is the table without the changes</h1>
 
