@@ -227,7 +227,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p> click on the customize ribbon on the pop up then it take to a different window.<p>
     
-<img width="424" alt="image" src="https://user-images.githubusercontent.com/96843197/158227427-dd92d0a7-c981-4740-88bb-49f20f679b0f.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158227427-dd92d0a7-c981-4740-88bb-49f20f679b0f.png">
 
 
 ## This is for those who have the developer ribbon in the excel ribbon
