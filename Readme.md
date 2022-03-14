@@ -210,12 +210,15 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p>Click on the customize ribbon on the pop up then it will take you to a different window.<p>
     
- ![image](https://user-images.githubusercontent.com/96843197/158245051-b3b76e9b-cda2-4b53-b7c7-7dbfb75f7d68.png)
+![image](https://user-images.githubusercontent.com/96843197/158245175-399320bd-1b1b-4b10-8c17-fb5c4177001b.png)
+
    
     
 <h3>Step 4</h3>
 
 <p>Once you are on The customize ribbon window you need to click on checkbox for developer ribbon and then click ok. </p>
+
+ ![image](https://user-images.githubusercontent.com/96843197/158245051-b3b76e9b-cda2-4b53-b7c7-7dbfb75f7d68.png)
 
 <h3>Step 5</h3> 
 
