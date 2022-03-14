@@ -177,6 +177,12 @@ This code is what have come up with when including the links for each cell in co
 
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158101915-38545f19-80ec-4d3a-b530-f8c49ffb9300.png">
 
+## This code is for removing text from a certain cell
+    `Public Sub removetext()
+    If Range("D16").Value = "Dead Fish Paper" Then
+    Range("D16").Value = ""
+    End If
+    End Sub`
 
 # User Guide VBA Code
 
