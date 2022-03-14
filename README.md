@@ -8,8 +8,8 @@ If the cell is yellow you will not include the hyperlink for that cell.
 
 # Explanation of the VBA Code
 
-Since the professor 
-
+## This code changes the selected cells into a markdown table format.
+    
     `Public Sub markdown()
 
     Dim cell As Range
@@ -121,9 +121,55 @@ Since the professor
 
  This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked will put in markdown format in the visual basic windows. You must copy the created visual basic markdown format table to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
 
+## This code is to change the cells with a hyperlink to markdown link format. 
+    `Sub changeMarkdownlinkformat()
 
+    Dim cell As Range
+    For Each cell In Range("C3:C40")
+    If cell.Value = "What is Data Science" Then
+        cell.Value = "[What is Data Science](https://docs.google.com/document/d/1yhVB9DfddvJIiXitX2ZC1W0D3cJbcvib5fWmUlgqNO0/edit)"
+        ElseIf cell.Value = "VBA" Then cell.Value = "[VBA](https://docs.google.com/document/d/1ASoeI5CjFgyQTBm-HFPvmRC_94niTPx4s9crQEDVb10/edit)"
+        ElseIf cell.Value = "Data Communication" Then cell.Value = "[Data Communcation](https://docs.google.com/document/d/1PTe_eezbRdZcxIOODyiQzDM4vtjVNJkVDC_7vZQSoZE/edit)"
+        ElseIf cell.Value = "Reading Review" Then cell.Value = "[Reading Review](https://docs.google.com/forms/d/1JJ3pD4m_kvgERvRMuFSiDxglcJmNxvg1N8fegM7ubyA/viewform?edit_requested=true)"
+        ElseIf cell.Value = "Data Exploration with Data Vis + R Intro" Then cell.Value = "[Data Exploration with Data Vis + R Intro](https://docs.google.com/document/d/1KI0OLn91_FJ03bQJW8ptoMNqOo8EL6MKzwLxvzIzNnM/edit)"
+        ElseIf cell.Value = "Remember Statistics - Linear Regression" Then cell.Value = "[Remember Statistics - Linear Regression](https://docs.google.com/document/d/14MH0Qq9nTMTY1uYrVohCFPWajxAF0SO_TxA7n0LxEKA/edit?urp=gmail_link)"
+        ElseIf cell.Value = "De-Annonymizing Data" Then cell.Value = "[De-Annonymizing Data](https://www.nature.com/articles/s41467-019-10933-3)"
+        ElseIf cell.Value = "A Brief History of Data Visualization" Then cell.Value = "[A Brief History of Data Visualization](https://www.datavis.ca/papers/hbook.pdf)"
+        ElseIf cell.Value = "Bar Graphs instead of Scatter Plots" Then cell.Value = "[Bar Graphs instead of Scatter Plots](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002128)"
+        ElseIf cell.Value = "Differnet Kinds of Data Visualization" Then cell.Value = "[Different Kinds of Data Visualization](https://github.com/arielcwebster/DataScience/blob/main/visualdatacommunication.pdf)"
+        ElseIf cell.Value = "COVID Risk Calculator" Then cell.Value = "[COVID Risk Calculator](https://www.nytimes.com/2021/12/30/style/covid-risk-calculator.html)"
 
+    End If
 
+    Range("C3:C40").Font.Underline = False
+
+    Next cell
+
+    For Each cell In Range("D3:D40")
+     If cell.Value = "HW2 - VBA" Then
+        cell.Value = "[HW2 - VBA](https://docs.google.com/document/d/1bTkmUon_Kq6_DupNw2Szh-T4rFGqzeA2aIIBy7m1yhk/edit)"
+        ElseIf cell.Value = "Reading Due - Florence Nightengale" Then cell.Value = "[Reading Due - Florence Nightengale](https://docs.google.com/forms/d/1FBgScIpV9Vpa-jb1nlWuoCqOxFE7v5SmQtacpFHpIq8/viewform?edit_requested=true)"
+        ElseIf cell.Value = "HW 3 - Tableau" Then cell.Value = "[HW 3 - Tableau](https://docs.google.com/document/d/1bta4t39rpvl-kXgO2pmZPGypWnYyBbiyzCPek9kxv9E/edit)"
+        ElseIf cell.Value = "Reading - Reveal Don't Conceal" Then cell.Value = "[Reading - Reveal Don't Conceal](https://docs.google.com/forms/d/1zno4KDCz5dWahMLxWlQDUzI7sfpd2ygYqU6H_k05K-E/viewform?edit_requested=true)"
+        ElseIf cell.Value = "Reading - Why Data is good for governments to provide" Then cell.Value = "[Reading - Why Data is good for governments to provide](https://www.theguardian.com/local-government-network/2013/oct/21/open-data-us-san-francisco)"
+        ElseIf cell.Value = "HW 4 - Data Exploration Tableau" Then cell.Value = "[HW 4 - Data Exploration Tableau](https://docs.google.com/document/d/1GJbs8fvJn99ogIkj3jbGYEoTcw0Tgu4XyI15WOqdQfs/edit)"
+        ElseIf cell.Value = "P-Hacking" Then cell.Value = "[P-Hacking](https://rss.onlinelibrary.wiley.com/doi/10.1111/1740-9713.01554)"
+        ElseIf cell.Value = "Reading Due - How to un annonymize data" Then cell.Value = "[Reading Due - How to un annonymize data](https://www.theguardian.com/technology/2019/jul/23/anonymised-data-never-be-anonymous-enough-study-finds)"
+        ElseIf cell.Value = "Possible Reading - Proxy Discrimination - When AI find predictive proxies for race - because society is segregated in this way. " Then cell.Value = "[Possible Reading - Proxy Discrimination - When AI find predictive proxies for race - because society is segregated in this way. ](https://ilr.law.uiowa.edu/print/volume-105-issue-3/proxy-discrimination-in-the-age-of-artificial-intelligence-and-big-data)"
+        ElseIf cell.Value = "Maryland Data" Then cell.Value = "[Maryland Data](https://gopi.maryland.gov/)"
+        ElseIf cell.Value = "NYT COVID Data" Then cell.Value = "[NYT COVID Data](https://github.com/nytimes/covid-19-data)"
+        ElseIf cell.Value = "NOAA Data" Then cell.Value = "[NOAA Data](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/)"
+    
+
+    End If
+
+    Range("D3:D40").Font.Underline = False
+
+    Next cell
+
+    End Sub`
+    
+    
 
 # User Guide VBA Code
 
