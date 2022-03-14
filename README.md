@@ -194,13 +194,15 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158214107-8fa12da0-d7f8-4323-b55a-4e576a223f44.png">
 
 
-# User Guide VBA Code
+# User Guide to open macros 
 
-## Step 1
+## this is for those who do not have the developer ribbon in the excel ribbon
+
+### Step 1
 
 <p> open up a blank excel sheet. </p>
 
-
+## This is for those who have the developer ribbon in the excel ribbon
 
 # This is the table without the changes
 
