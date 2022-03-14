@@ -183,6 +183,11 @@ This code is what have come up with when including the links for each cell in co
     Range("D16").Value = ""
     End If
     End Sub`
+    
+
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158103079-aae9f1fe-ca8a-453d-984b-38bd0905be4e.png">
+
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158101915-38545f19-80ec-4d3a-b530-f8c49ffb9300.png">
 
 # User Guide VBA Code
 
