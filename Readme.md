@@ -199,13 +199,19 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p>Open up a blank excel sheet. </p>
 
+![image](https://user-images.githubusercontent.com/96843197/158244790-04de5029-bc98-43f3-87df-008d9b6a81db.png)
+
 <h3>Step 2</h3>
 
 <p>Right click the excel ribbon. A seperate pop up will come up.</p>
 
+
 <h3>Step 3</h3>
 
 <p>Click on the customize ribbon on the pop up then it will take you to a different window.<p>
+    
+ ![image](https://user-images.githubusercontent.com/96843197/158245051-b3b76e9b-cda2-4b53-b7c7-7dbfb75f7d68.png)
+   
     
 <h3>Step 4</h3>
 
