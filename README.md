@@ -217,27 +217,32 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 <img width="960" alt="158225203-66992bff-ce8a-4ce7-a9ab-2ac46ff66559" src="https://user-images.githubusercontent.com/96843197/158226466-01e63793-1bc5-41c7-bdde-99907d3af60d.png">
 
 
-### step 2
+### Step 2
 
 <p> Right click the excel ribbon. A seperate pop up will come up.</p>
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158225855-01d11e01-f637-4c29-a76e-9c0dbcfeb7b3.png">
 
-### step 3
+### Step 3
 
 <p> Click on the customize ribbon on the pop up then it will take you to a different window.<p>
     
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158227427-dd92d0a7-c981-4740-88bb-49f20f679b0f.png">
 
-### step 4
+### Step 4
 
 <p>Once you are on The customize ribbon window you need to click on checkbox for developer ribbon and then click ok. </p>
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158230464-9020aaad-4857-4548-9018-44c972fbbe27.png">
 
-### step 5 
+### Step 5 
 
 <p> After you click ok on the customized ribbon window the developer ribbon will appear on the excel ribbon at the top of the excel sheet. You must click on the developer tab first.</p>
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/96843197/158233210-99c1f568-9bdc-46da-acce-cb1578e5c438.png">
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158233271-e3a62c12-6c95-49d1-9f64-dd8ecae08652.png">
+
 
 ## This is for those who have the developer ribbon in the excel ribbon
 
