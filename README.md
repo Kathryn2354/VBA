@@ -200,9 +200,9 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
 
 This code remove a hyperlink for Cell D18 in the excel sheet.
 
-<img width="706" alt="image" src="https://user-images.githubusercontent.com/96843197/158223402-5432e4ce-a3a6-42ed-be83-062efc70f3c0.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/96843197/158223402-5432e4ce-a3a6-42ed-be83-062efc70f3c0.png">
 
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158223870-46db391a-0c40-4c8e-a5c2-5f7df8928530.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158223870-46db391a-0c40-4c8e-a5c2-5f7df8928530.png">
 
 
 # User Guide to open macros 
