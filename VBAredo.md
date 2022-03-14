@@ -173,10 +173,6 @@ This vba function markdownFormat allow you to select a range of cells in which t
 
 This code is what have come up with when including the links for each cell in column c and d. The first part of the code loops through the range of cells from C3 to C40 and find the text that correspond to hyperlinks and change them all into the markdown link format in the excel sheet. The second part of the code is the same thing as the first part of the code but the difference is that it is loops through the range of cells from D3 to D40 and it does not change the text on D18 on the excel sheet into markdown link format because it is in the yellow there should no hyperlink attached to it. 
 
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158215318-b561d59d-c0a1-42fc-a934-01f0599299bc.png">
-
-
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158101915-38545f19-80ec-4d3a-b530-f8c49ffb9300.png">
 
 ## This code is for removing text from a certain cell
     `Public Sub removetext()
@@ -187,9 +183,6 @@ This code is what have come up with when including the links for each cell in co
 
 This code remove a the Dead Fish Paper text from the original excel file in cell D16 to blank text.
 
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158214406-5ec3ff11-a940-40b6-a4e1-ed73c6c8ca55.png">
-
-<img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158214107-8fa12da0-d7f8-4323-b55a-4e576a223f44.png">
 
 ## This code is for removing a single hyperlink for one cell only
     `Public Sub removehyperlink()
@@ -198,9 +191,6 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
 
 This code remove a hyperlink for Cell D18 in the excel sheet.
 
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158223402-5432e4ce-a3a6-42ed-be83-062efc70f3c0.png">
-
-<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158224564-b0730516-97d9-49e4-9a14-81fcef2ffe02.png">
 
 # User Guide to open macros 
 
