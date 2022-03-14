@@ -6,6 +6,8 @@
     <li>If a cell is orange you will not include the text for that cell in your markdown table</li>
     <li>If the cell is yellow you will not include the hyperlink for that cell. </li>
 </ol>
+
+
 # Explanation of the VBA Code
 
 ## This code changes the selected cells into a markdown table format.
