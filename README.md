@@ -171,7 +171,7 @@ This vba function markdownFormat allow you to select a range of cells in which t
 
     End Sub`
 
-This code is what have come up with when including the links for each cell in column c and d. The first part of the code is that it loops through the range of cells from c3 to c40 and find the text that correspond to hyperlinks and change them all into the markdown link format in the excel sheet. 
+This code is what have come up with when including the links for each cell in column c and d. The first part of the code loops through the range of cells from c3 to c40 and find the text that correspond to hyperlinks and change them all into the markdown link format in the excel sheet. The second part of the code is the same thing as the first part of the code but the difference is that it is loops through the range of cells from d3 to d40 and it does not change the text on D18 on the excel sheet into markdown link format because it is in the yellow there should no hyperlink attached to it. 
 
 # User Guide VBA Code
 
