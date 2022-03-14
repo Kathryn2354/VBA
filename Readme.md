@@ -191,7 +191,7 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
 
 This code remove a hyperlink for Cell D18 in the excel sheet.
 
-# User Guide to open macros 
+<h1> User Guide to open macros </h1> 
 
 ## this is for those who do not have the developer ribbon in the excel ribbon
 
@@ -225,7 +225,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p>open up a blank excel sheet.</p>
 
-# This is the table without the changes
+<h1>This is the table without the changes</h1>
 
 |            | Day           | Topic                                                                                                                                           | Due                                                                                                                                                                                                                                                             |
 |------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -271,7 +271,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 
 
-# The result after the VBA code changes.
+<h1> The result after the VBA code changes.</h1>
 
 |            | Day           | Topic                                                                                                                                           | Due                                                                                                                                                                                                                                                             |
 |------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
