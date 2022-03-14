@@ -211,8 +211,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 <p>Click on the customize ribbon on the pop up then it will take you to a different window.<p>
     
 ![image](https://user-images.githubusercontent.com/96843197/158245377-ee924315-8dcc-4496-b6bc-5498f5ffeb81.png)
-
-    
+   
 <h3>Step 4</h3>
 
 <p>Once you are on The customize ribbon window you need to click on checkbox for developer ribbon and then click ok. </p>
@@ -223,9 +222,16 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p>After you click ok on the customized ribbon window the developer ribbon will appear on the excel ribbon at the top of the excel sheet. You must click on the developer tab first.</p>
 
+![image](https://user-images.githubusercontent.com/96843197/158246766-af1c2149-fd28-4051-af0b-8dccef7e0429.png)
+![image](https://user-images.githubusercontent.com/96843197/158246790-dfc1d6ed-893c-4e95-a373-702709e25ea3.png)
+
 <h3>Step 6</h3>
 
 <p>once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
+
+![image](https://user-images.githubusercontent.com/96843197/158246914-e0540511-90c7-49e8-8490-ab46966f2ca2.png)
+![image](https://user-images.githubusercontent.com/96843197/158247018-d67dd170-7ee2-458a-be79-f2755a7942db.png)
+
 
 <h2> This is for those who have the developer ribbon in the excel ribbon</h2>
     
