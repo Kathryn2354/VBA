@@ -193,6 +193,13 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
 
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158214107-8fa12da0-d7f8-4323-b55a-4e576a223f44.png">
 
+## This code is for removing a single hyperlink for one cell only
+    `Public Sub removehyperlink()
+    Range("D18").Hyperlinks.Delete
+    End Sub`
+
+
+
 
 # User Guide to open macros 
 
