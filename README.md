@@ -212,23 +212,28 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 ### Step 1
 
-<p> open up a blank excel sheet. </p>
+<p> Open up a blank excel sheet. </p>
 
 <img width="960" alt="158225203-66992bff-ce8a-4ce7-a9ab-2ac46ff66559" src="https://user-images.githubusercontent.com/96843197/158226466-01e63793-1bc5-41c7-bdde-99907d3af60d.png">
 
 
 ### step 2
 
-<p> right click the excel ribbon. a seperate pop up will come up.</p>
+<p> Right click the excel ribbon. A seperate pop up will come up.</p>
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158225855-01d11e01-f637-4c29-a76e-9c0dbcfeb7b3.png">
 
 ### step 3
 
-<p> click on the customize ribbon on the pop up then it take to a different window.<p>
+<p> Click on the customize ribbon on the pop up then it will take you to a different window.<p>
     
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158227427-dd92d0a7-c981-4740-88bb-49f20f679b0f.png">
 
+### step 4
+
+<p>Once you are on The customize ribbon window you need to click on checkbox for developer ribbon and then click ok. </p>
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158230464-9020aaad-4857-4548-9018-44c972fbbe27.png">
 
 ## This is for those who have the developer ribbon in the excel ribbon
 
