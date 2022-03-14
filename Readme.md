@@ -205,6 +205,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p>Right click the excel ribbon. A seperate pop up will come up.</p>
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/96843197/158247888-0796eace-f6af-47f9-8f34-ed6a6c5f31a1.png">
 
 <h3>Step 3</h3>
 
