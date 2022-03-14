@@ -205,7 +205,6 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158224564-b0730516-97d9-49e4-9a14-81fcef2ffe02.png">
 
 
-
 # User Guide to open macros 
 
 ## this is for those who do not have the developer ribbon in the excel ribbon
@@ -243,9 +242,15 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158233271-e3a62c12-6c95-49d1-9f64-dd8ecae08652.png">
 
+### Step 6
+
+<p> once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
+
+<img width="90" alt="image" src="https://user-images.githubusercontent.com/96843197/158235902-9f99114b-a8e8-411c-88ef-cfb41c27f6d5.png">
+
+<img width="690" alt="image" src="https://user-images.githubusercontent.com/96843197/158237085-ef7900af-a058-44b7-b55f-4f3f1017fe64.png">
 
 ## This is for those who have the developer ribbon in the excel ribbon
-
 
 ### Step 1
 
