@@ -187,9 +187,7 @@ This code is what have come up with when including the links for each cell in co
 
 This code remove a the Dead Fish Paper text from the original excel file in cell D16 to blank text.
 
-
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158214406-5ec3ff11-a940-40b6-a4e1-ed73c6c8ca55.png">
-
 
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158214107-8fa12da0-d7f8-4323-b55a-4e576a223f44.png">
 
@@ -204,7 +202,6 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158224564-b0730516-97d9-49e4-9a14-81fcef2ffe02.png">
 
-
 # User Guide to open macros 
 
 ## this is for those who do not have the developer ribbon in the excel ribbon
@@ -213,26 +210,26 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p> Open up a blank excel sheet. </p>
 
-<img width="960" alt="158225203-66992bff-ce8a-4ce7-a9ab-2ac46ff66559" src="https://user-images.githubusercontent.com/96843197/158226466-01e63793-1bc5-41c7-bdde-99907d3af60d.png">
+<img width="700" alt="158225203-66992bff-ce8a-4ce7-a9ab-2ac46ff66559" src="https://user-images.githubusercontent.com/96843197/158226466-01e63793-1bc5-41c7-bdde-99907d3af60d.png">
 
 
 ### Step 2
 
 <p> Right click the excel ribbon. A seperate pop up will come up.</p>
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158225855-01d11e01-f637-4c29-a76e-9c0dbcfeb7b3.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158225855-01d11e01-f637-4c29-a76e-9c0dbcfeb7b3.png">
 
 ### Step 3
 
 <p> Click on the customize ribbon on the pop up then it will take you to a different window.<p>
     
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158227427-dd92d0a7-c981-4740-88bb-49f20f679b0f.png">
-
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158227427-dd92d0a7-c981-4740-88bb-49f20f679b0f.png">
+    
 ### Step 4 
 
 <p>Once you are on The customize ribbon window you need to click on checkbox for developer ribbon and then click ok. </p>
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158230464-9020aaad-4857-4548-9018-44c972fbbe27.png">
+<img width="700 alt="image" src="https://user-images.githubusercontent.com/96843197/158230464-9020aaad-4857-4548-9018-44c972fbbe27.png">
 
 ### Step 5 
 
@@ -240,7 +237,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <img width="90" alt="image" src="https://user-images.githubusercontent.com/96843197/158233210-99c1f568-9bdc-46da-acce-cb1578e5c438.png">
 
-<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158233271-e3a62c12-6c95-49d1-9f64-dd8ecae08652.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158233271-e3a62c12-6c95-49d1-9f64-dd8ecae08652.png">
 
 ### Step 6
 
@@ -248,7 +245,7 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <img width="90" alt="image" src="https://user-images.githubusercontent.com/96843197/158235902-9f99114b-a8e8-411c-88ef-cfb41c27f6d5.png">
 
-<img width="690" alt="image" src="https://user-images.githubusercontent.com/96843197/158237085-ef7900af-a058-44b7-b55f-4f3f1017fe64.png">
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158237085-ef7900af-a058-44b7-b55f-4f3f1017fe64.png">
 
 ## This is for those who have the developer ribbon in the excel ribbon
 
