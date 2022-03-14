@@ -121,7 +121,7 @@
  
     End Sub`
 
- This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked into markdown table format in the visual basic windows. You must copy the created visual basic markdown table format to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
+This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked into markdown table format in the visual basic windows. You must copy the created visual basic markdown table format to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
 
 ## This code is to change the cells with a hyperlink to markdown link format. 
     `Sub changeMarkdownlinkformat()
@@ -170,8 +170,8 @@
     Next cell
 
     End Sub`
-    
-    This code is what have come up with when including the links for each cell in column c and d. The first part of the code is that it loops through the range of cells from c3 to c40 and find the text that correspond to hyperlinks and change them all into the markdown link format in the excel sheet. 
+
+This code is what have come up with when including the links for each cell in column c and d. The first part of the code is that it loops through the range of cells from c3 to c40 and find the text that correspond to hyperlinks and change them all into the markdown link format in the excel sheet. 
 
 # User Guide VBA Code
 
