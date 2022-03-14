@@ -214,7 +214,8 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <p> open up a blank excel sheet. </p>
 
-<img width="1046" alt="image" src="https://user-images.githubusercontent.com/96843197/158225203-66992bff-ce8a-4ce7-a9ab-2ac46ff66559.png">
+<img width="960" alt="158225203-66992bff-ce8a-4ce7-a9ab-2ac46ff66559" src="https://user-images.githubusercontent.com/96843197/158226466-01e63793-1bc5-41c7-bdde-99907d3af60d.png">
+
 
 ### step 2
 
