@@ -119,7 +119,7 @@ If the cell is yellow you will not include the hyperlink for that cell.
  
     End Sub`
 
- This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked will put in markdown format in the visual basic windows. You must copy the created visual basic markdown format table to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
+ This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked into markdown table format in the visual basic windows. You must copy the created visual basic markdown table format to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
 
 ## This code is to change the cells with a hyperlink to markdown link format. 
     `Sub changeMarkdownlinkformat()
@@ -179,7 +179,7 @@ If the cell is yellow you will not include the hyperlink for that cell.
 
 
 
-# this is the table without the changes
+# This is the table without the changes
 
 |            | Day           | Topic                                                                                                                                           | Due                                                                                                                                                                                                                                                             |
 |------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
