@@ -184,7 +184,10 @@ This code is what have come up with when including the links for each cell in co
     Range("D16").Value = ""
     End If
     End Sub`
-    
+
+This code remove a the Dead Fish Paper text from the original excel file in cell D16 to blank text.
+
+
 <img width="1000" alt="image" src="https://user-images.githubusercontent.com/96843197/158214406-5ec3ff11-a940-40b6-a4e1-ed73c6c8ca55.png">
 
 
