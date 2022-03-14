@@ -239,11 +239,25 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158258612-33ef4b42-2f7b-4893-ba24-49b2fbff030b.png">
 
+<h3>Step 8</h3>
+
+<p>type in the code in the module in the microsoft visual basic of application window</p>
+
 <h2> This is for those who have the developer ribbon in the excel ribbon</h2>
     
 <h3>Step 1</h3>
 
 <p>open up a blank excel sheet.</p>
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158261779-51a45d6d-ccb5-4aab-90f7-d87ac053720d.png">
+
+<h3>Step 2</h3>
+
+<p>You must click on the developer tab first.</p>
+
+![image](https://user-images.githubusercontent.com/96843197/158246790-dfc1d6ed-893c-4e95-a373-702709e25ea3.png)
+
+
 
 <h1>This is the table without the changes</h1>
 
