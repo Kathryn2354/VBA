@@ -171,7 +171,7 @@
 
     End Sub`
     
-    
+    This code is what have come up with when including the links for each cell in column c and d. The first part of the code is that it loops through the range of cells from c3 to c40 and find the text that correspond to hyperlinks and change them all into the markdown link format in the excel sheet. 
 
 # User Guide VBA Code
 
