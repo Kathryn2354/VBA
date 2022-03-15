@@ -270,7 +270,9 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
 <img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158258612-33ef4b42-2f7b-4893-ba24-49b2fbff030b.png">
 
+<h3>Step 5</h3>
 
+<p>type in the code in the module in the microsoft visual basic of application window</p>
 
 <h1>This is the table without the changes</h1>
 
