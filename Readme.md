@@ -11,11 +11,17 @@
 # Explanation of the VBA Code
 
 ## This code is to change the cells with a hyperlink to markdown link format. 
-    `Sub changeMarkdownlinkformat()
+    `'Start of function
+      Sub changeMarkdownlinkformat()
 
-    Dim cell As Range
-    For Each cell In Range("C3:C40")
-    If cell.Value = "What is Data Science" Then
+    'initialize variable nemed cell as range.
+     Dim cell As Range
+
+    'This loop through a certain range of cells to change the text with hyperlink attached into the markdown link format for the C Column.
+     For Each cell In Range("C3:C40")
+
+    'Start of first if statement
+     If cell.Value = "What is Data Science" Then
         cell.Value = "[What is Data Science](https://docs.google.com/document/d/1yhVB9DfddvJIiXitX2ZC1W0D3cJbcvib5fWmUlgqNO0/edit)"
         ElseIf cell.Value = "VBA" Then cell.Value = "[VBA](https://docs.google.com/document/d/1ASoeI5CjFgyQTBm-HFPvmRC_94niTPx4s9crQEDVb10/edit)"
         ElseIf cell.Value = "Data Communication" Then cell.Value = "[Data Communcation](https://docs.google.com/document/d/1PTe_eezbRdZcxIOODyiQzDM4vtjVNJkVDC_7vZQSoZE/edit)"
@@ -28,13 +34,19 @@
         ElseIf cell.Value = "Differnet Kinds of Data Visualization" Then cell.Value = "[Different Kinds of Data Visualization](https://github.com/arielcwebster/DataScience/blob/main/visualdatacommunication.pdf)"
         ElseIf cell.Value = "COVID Risk Calculator" Then cell.Value = "[COVID Risk Calculator](https://www.nytimes.com/2021/12/30/style/covid-risk-calculator.html)"
 
-    End If
+    'End of first if statement
+     End If
 
-    Range("C3:C40").Font.Underline = False
+    'This remove the underline for the range of cell C3 to C40
+     Range("C3:C40").Font.Underline = False
 
-    Next cell
+    'End of the first for loop
+     Next cell
 
-    For Each cell In Range("D3:D40")
+    'This loop through a certain range of cells to change the text with hyperlink attached into the markdown link format for the D column except for the text in cell D18 HW 5 - ggplots & Regressions.
+     For Each cell In Range("D3:D40")
+
+    'Start of second if statement
      If cell.Value = "HW2 - VBA" Then
         cell.Value = "[HW2 - VBA](https://docs.google.com/document/d/1bTkmUon_Kq6_DupNw2Szh-T4rFGqzeA2aIIBy7m1yhk/edit)"
         ElseIf cell.Value = "Reading Due - Florence Nightengale" Then cell.Value = "[Reading Due - Florence Nightengale](https://docs.google.com/forms/d/1FBgScIpV9Vpa-jb1nlWuoCqOxFE7v5SmQtacpFHpIq8/viewform?edit_requested=true)"
@@ -48,24 +60,32 @@
         ElseIf cell.Value = "Maryland Data" Then cell.Value = "[Maryland Data](https://gopi.maryland.gov/)"
         ElseIf cell.Value = "NYT COVID Data" Then cell.Value = "[NYT COVID Data](https://github.com/nytimes/covid-19-data)"
         ElseIf cell.Value = "NOAA Data" Then cell.Value = "[NOAA Data](https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/)"
-    
 
-    End If
+    'End of second if statement
+     End If
 
-    Range("D3:D40").Font.Underline = False
+    'This remove the underline for the range of cell D3 to D40
+     Range("D3:D40").Font.Underline = False
 
-    Next cell
+    'End of the second for loop
+     Next cell
 
-    End Sub`
+    'End of function
+     End Sub`
 
-This code is what have come up with when including the links for each cell in column c and d. The first part of the code loops through the range of cells from C3 to C40 and find the text that correspond to hyperlinks and change them all into the markdown link format in the excel sheet. The second part of the code is the same thing as the first part of the code but the difference is that it is loops through the range of cells from D3 to D40 and it does not change the text on D18 on the excel sheet into markdown link format because it is in the yellow there should no hyperlink attached to it. 
+The first for loop in this vba code loops through the range of cell in column C from C3 to C40. Inside this for loop there is a if statement that checks if there is cell that contain a text with a hyperlink attached first. It will change that particular cell into the markdown link format in range of cells being specified at the beginning of the for loop. Also inside the loop there is code where it remove all underlining in the range of cells specified.
+
+The second for loop in this vba code loops through the range of cell in column D from D3 to D40. Inside this for loop there is a if statement that checks if there is cell that contain a text with a hyperlink attached first.  It will change that particular cell into the markdown link format in range of cells being spicified at the beginnin og the for loop. Also inside the loop there is code where it remove all underlining in the range of cells specified. This loop does contain cell D18 HW 5 - ggplots & Regressions hyperlink because the teacher want us to not include the hyperlink attached to the text "HW 5 - ggplots & Regressions".
 
 
 ## This code is for removing text from a certain cell
     `Public Sub removetext()
+    
+   'Remove the Dead Fish Paper text from one cell
     If Range("D16").Value = "Dead Fish Paper" Then
     Range("D16").Value = ""
     End If
+    
     End Sub`
 
 This code remove a the Dead Fish Paper text from the original excel file in cell D16 to blank text.
@@ -81,120 +101,127 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 ## This code changes the selected cells into a markdown table format.
     `Public Sub markdown()
 
-    Dim cell As Range
-    Dim selectedRange As Range
+        Dim cell As Range
+        Dim selectedRange As Range
 
-    Set selectedRange = Application.Selection
+        Set selectedRange = Application.Selection
 
-    Dim rowCounter As Integer
-    Dim columnCounter As Integer
-    Dim totalColumns As Integer
-    Dim currentColumnWidth As Integer
+        Dim rowCounter As Integer
+        Dim columnCounter As Integer
+        Dim totalColumns As Integer
+        Dim currentColumnWidth As Integer
 
-    totalColumns = selectedRange.Columns.Count
+        totalColumns = selectedRange.Columns.Count
 
-    Dim ColumnWidth(40) As String
-
-    '///
-    '/// init lengths of columns
-    '///
-
-    For I = 0 To totalColumns
-        ColumnWidth(I) = 0
-    Next I
-
-    '///
-    '/// go through range to calculate maximum lengths of each column
-    '///
-
-    For Each row In selectedRange.Rows
-
-        columnCounter = 0
-
-        For Each cell In row.Cells
-
-            currentColumnWidth = Len(cell.Value)
-
-            If (currentColumnWidth > ColumnWidth(columnCounter)) Then
-
-                    ColumnWidth(columnCounter) = currentColumnWidth
-
-                End If
-
-                columnCounter = columnCounter + 1
-                '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
-
-            Next cell
-
-        Next row
+        Dim ColumnWidth(40) As String
 
         '///
-        '/// go through range to add extra spaces and make create the markdown table format
+        '/// init lengths of columns
         '///
-        Dim currentLine As String
 
-        rowCounter = 0
+        For I = 0 To totalColumns
+            ColumnWidth(I) = 0
+        Next I
+
+        '///
+        '/// go through range to calculate maximum lengths of each column
+        '///
+
         For Each row In selectedRange.Rows
 
             columnCounter = 0
 
-            currentLine = "|"
-
             For Each cell In row.Cells
 
-                currentColumnWidth = ColumnWidth(columnCounter)
-                Dim extraSpaces As Integer
+                currentColumnWidth = Len(cell.Value)
 
-                currentLine = currentLine & " "
-                currentLine = currentLine & cell.Value
-                extraSpaces = currentColumnWidth - Len(cell.Value)
+                If (currentColumnWidth > ColumnWidth(columnCounter)) Then
 
-                For j = 0 To extraSpaces
+                        ColumnWidth(columnCounter) = currentColumnWidth
 
-                    currentLine = currentLine & " "
+                    End If
 
-                Next j
+                    columnCounter = columnCounter + 1
+                    '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
 
-                currentLine = currentLine & " |"
+                Next cell
 
-                columnCounter = columnCounter + 1
-                '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
+            Next row
 
-            Next cell
+            '///
+            '/// go through range to add extra spaces and make create the markdown table format
+            '///
+            Dim currentLine As String
 
-            Debug.Print currentLine
+            rowCounter = 0
+            For Each row In selectedRange.Rows
 
-            If (rowCounter = 0) Then
-
-                currentLine = "|"
                 columnCounter = 0
 
-                For j = 0 To (totalColumns - 1)
+                currentLine = "|"
 
-                    currentLine = currentLine
+                For Each cell In row.Cells
+
                     currentColumnWidth = ColumnWidth(columnCounter)
-                    currentLine = currentLine & "-"
+                    Dim extraSpaces As Integer
 
-                    For k = 0 To currentColumnWidth
+                    currentLine = currentLine & " "
+                    currentLine = currentLine & cell.Value
+                    extraSpaces = currentColumnWidth - Len(cell.Value)
 
-                        currentLine = currentLine & "-"
-                    Next k
+                    For j = 0 To extraSpaces
 
-                    currentLine = currentLine & "-|"
+                        currentLine = currentLine & " "
+
+                    Next j
+
+                    currentLine = currentLine & " |"
+
                     columnCounter = columnCounter + 1
+                    '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
 
-                Next j
+                Next cell
 
                 Debug.Print currentLine
-            End If
 
-            rowCounter = rowCounter + 1
+                If (rowCounter = 0) Then
 
-        Next row
+                    currentLine = "|"
+                    columnCounter = 0
 
-    End Sub`
+                    For j = 0 To (totalColumns - 1)
 
-This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked into markdown table format in the visual basic windows. You must copy the created visual basic markdown table format to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
+                        currentLine = currentLine
+                        currentColumnWidth = ColumnWidth(columnCounter)
+                        currentLine = currentLine & "-"
+
+                        For k = 0 To currentColumnWidth
+
+                            currentLine = currentLine & "-"
+                        Next k
+
+                        currentLine = currentLine & "-|"
+                        columnCounter = columnCounter + 1
+
+                    Next j
+
+                    Debug.Print currentLine
+                End If
+
+                rowCounter = rowCounter + 1
+
+            Next row
+
+        End Sub`
+
+The first loop counts number of columns in the selected range of row the user have selected.
+
+The second for loop find the maximum length for each column in the slected range of cells. Inside the for loop we are comparing the currentcolumnwidth length to the text length of the next column. If the text length of the next column is greater then the currentcolumnwidth length. It now set that new length to the currentcolumnwidth variable. There is counter the count up the column by one each time it loops. This repeat over and over again until its finds all of the maximum length for cell in each column in the selected range of row the user have selected.
+
+The third for loop uses the previous for loop to change the selected range of column and cell into the markdown table format. Inside for loop has a for loop that checks if the cell need to add extra spaces to even up the table. This for loop also add the signiture symbol "|" of markdown table in the biginning and the end of each cell in each row. The for loop also check for if the row of cell is header. 
+
+
+
 
 <h1> User Guide to open macros </h1> 
 
