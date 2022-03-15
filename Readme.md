@@ -10,119 +10,6 @@
 
 # Explanation of the VBA Code
 
-## This code changes the selected cells into a markdown table format.
-    
-    `Public Sub markdown()
-
-    Dim cell As Range
-    Dim selectedRange As Range
-
-    Set selectedRange = Application.Selection
-
-    Dim rowCounter As Integer
-    Dim columnCounter As Integer
-    Dim totalColumns As Integer
-    Dim currentColumnWidth As Integer
-
-    totalColumns = selectedRange.Columns.Count
-
-    Dim ColumnWidth(40) As String
-
-
-    For I = 0 To totalColumns
-        ColumnWidth(I) = 0
-    Next I
-
-
-    For Each row In selectedRange.Rows
-
-        columnCounter = 0
-    
-        For Each cell In row.Cells
-    
-            currentColumnWidth = Len(cell.Value)
-        
-            If (currentColumnWidth > ColumnWidth(columnCounter)) Then
-                
-                ColumnWidth(columnCounter) = currentColumnWidth
-
-                End If
-
-                columnCounter = columnCounter + 1
-                '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
-
-            Next cell
-
-        Next row
-
-        '///
-        '/// go through range to calculate maximum lengths of each column
-        '///
-        Dim currentLine As String
-
-        rowCounter = 0
-        For Each row In selectedRange.Rows
-
-            columnCounter = 0
-
-            currentLine = "|"
-
-            For Each cell In row.Cells
-
-                currentColumnWidth = ColumnWidth(columnCounter)
-                Dim extraSpaces As Integer
-
-                currentLine = currentLine & " "
-                currentLine = currentLine & cell.Value
-                extraSpaces = currentColumnWidth - Len(cell.Value)
-
-                For j = 0 To extraSpaces
-
-                    currentLine = currentLine & " "
-
-                Next j
-
-                currentLine = currentLine & " |"
-
-                columnCounter = columnCounter + 1
-                '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
-
-            Next cell
-
-            Debug.Print currentLine
-
-            If (rowCounter = 0) Then
-
-                currentLine = "|"
-                columnCounter = 0
-
-                For j = 0 To (totalColumns - 1)
-
-                    currentLine = currentLine
-                    currentColumnWidth = ColumnWidth(columnCounter)
-                    currentLine = currentLine & "-"
-
-                    For k = 0 To currentColumnWidth
-
-                        currentLine = currentLine & "-"
-                    Next k
-
-                    currentLine = currentLine & "-|"
-                    columnCounter = columnCounter + 1
-
-                Next j
-    
-                Debug.Print currentLine
-            End If
-
-            rowCounter = rowCounter + 1
-
-        Next row
- 
-    End Sub`
-
-This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked into markdown table format in the visual basic windows. You must copy the created visual basic markdown table format to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
-
 ## This code is to change the cells with a hyperlink to markdown link format. 
     `Sub changeMarkdownlinkformat()
 
@@ -190,6 +77,124 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
     End Sub`
 
 This code remove a hyperlink for Cell D18 in the excel sheet.
+
+## This code changes the selected cells into a markdown table format.
+    `Public Sub markdown()
+
+    Dim cell As Range
+    Dim selectedRange As Range
+
+    Set selectedRange = Application.Selection
+
+    Dim rowCounter As Integer
+    Dim columnCounter As Integer
+    Dim totalColumns As Integer
+    Dim currentColumnWidth As Integer
+
+    totalColumns = selectedRange.Columns.Count
+
+    Dim ColumnWidth(40) As String
+
+    '///
+    '/// init lengths of columns
+    '///
+
+    For I = 0 To totalColumns
+        ColumnWidth(I) = 0
+    Next I
+
+    '///
+    '/// go through range to calculate maximum lengths of each column
+    '///
+
+    For Each row In selectedRange.Rows
+
+        columnCounter = 0
+
+        For Each cell In row.Cells
+
+            currentColumnWidth = Len(cell.Value)
+
+            If (currentColumnWidth > ColumnWidth(columnCounter)) Then
+
+                    ColumnWidth(columnCounter) = currentColumnWidth
+
+                End If
+
+                columnCounter = columnCounter + 1
+                '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
+
+            Next cell
+
+        Next row
+
+        '///
+        '/// go through range to add extra spaces and make create the markdown table format
+        '///
+        Dim currentLine As String
+
+        rowCounter = 0
+        For Each row In selectedRange.Rows
+
+            columnCounter = 0
+
+            currentLine = "|"
+
+            For Each cell In row.Cells
+
+                currentColumnWidth = ColumnWidth(columnCounter)
+                Dim extraSpaces As Integer
+
+                currentLine = currentLine & " "
+                currentLine = currentLine & cell.Value
+                extraSpaces = currentColumnWidth - Len(cell.Value)
+
+                For j = 0 To extraSpaces
+
+                    currentLine = currentLine & " "
+
+                Next j
+
+                currentLine = currentLine & " |"
+
+                columnCounter = columnCounter + 1
+                '/// Debug.Print cell.Address, " ", cell.Value, "->", Len(cell.Value)
+
+            Next cell
+
+            Debug.Print currentLine
+
+            If (rowCounter = 0) Then
+
+                currentLine = "|"
+                columnCounter = 0
+
+                For j = 0 To (totalColumns - 1)
+
+                    currentLine = currentLine
+                    currentColumnWidth = ColumnWidth(columnCounter)
+                    currentLine = currentLine & "-"
+
+                    For k = 0 To currentColumnWidth
+
+                        currentLine = currentLine & "-"
+                    Next k
+
+                    currentLine = currentLine & "-|"
+                    columnCounter = columnCounter + 1
+
+                Next j
+
+                Debug.Print currentLine
+            End If
+
+            rowCounter = rowCounter + 1
+
+        Next row
+
+    End Sub`
+
+This vba function markdownFormat allow you to select a range of cells in which the code will change the selcted range of cells you have picked into markdown table format in the visual basic windows. You must copy the created visual basic markdown table format to a github markdown file in order to make it work. Since VBA only work once you must close your vba window and excel file with macro enabled or otherwise it missed up your excel sheet. 
 
 <h1> User Guide to open macros </h1> 
 
