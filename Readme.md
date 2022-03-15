@@ -264,6 +264,14 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 ![image](https://user-images.githubusercontent.com/96843197/158246914-e0540511-90c7-49e8-8490-ab46966f2ca2.png)
 ![image](https://user-images.githubusercontent.com/96843197/158247018-d67dd170-7ee2-458a-be79-f2755a7942db.png)
 
+<h3>Step 4</h3>
+
+<p>When you finished typing in the macro function name it will take you to the microsoft visual basic of application windows.</p>
+
+<img width="700" alt="image" src="https://user-images.githubusercontent.com/96843197/158258612-33ef4b42-2f7b-4893-ba24-49b2fbff030b.png">
+
+
+
 <h1>This is the table without the changes</h1>
 
 |            | Day           | Topic                                                                                                                                           | Due                                                                                                                                                                                                                                                             |
