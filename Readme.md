@@ -93,7 +93,7 @@ This code remove a the Dead Fish Paper text from the original excel file in cell
 
 ## This code is for removing a single hyperlink for one cell only
     `Public Sub removehyperlink()
-    Range("D18").Hyperlinks.Delete
+        Range("D18").Hyperlinks.Delete
     End Sub`
 
 This code remove a hyperlink for Cell D18 in the excel sheet.
