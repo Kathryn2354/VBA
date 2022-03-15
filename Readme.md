@@ -81,10 +81,10 @@ The second for loop in this vba code loops through the range of cell in column D
 ## This code is for removing text from a certain cell
     `Public Sub removetext()
     
-   'Remove the Dead Fish Paper text from one cell
-    If Range("D16").Value = "Dead Fish Paper" Then
-    Range("D16").Value = ""
-    End If
+       'Remove the Dead Fish Paper text from one cell
+        If Range("D16").Value = "Dead Fish Paper" Then
+        Range("D16").Value = ""
+        End If
     
     End Sub`
 
