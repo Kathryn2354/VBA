@@ -73,9 +73,9 @@
     'End of function
      End Sub`
 
-The first for loop in this vba code loops through the range of cell in column C from C3 to C40. Inside this for loop there is a if statement that checks if there is cell that contain a text with a hyperlink attached first. It will change that particular cell into the markdown link format in range of cells being specified at the beginning of the for loop. Also inside the loop there is code where it remove all underlining in the range of cells specified.
+The first for loop in this VBA code loops through the range of cells in column C from C3 to C40. There is an if statement that checks if there is a cell with a hyperlink attached first, then it can change that particular cell into the markdown link format in the range of cells at the beginning of the loop. Also, there is code that removes all underlining in of cells specified.
 
-The second for loop in this vba code loops through the range of cell in column D from D3 to D40. Inside this for loop there is a if statement that checks if there is cell that contain a text with a hyperlink attached first.  It will change that particular cell into the markdown link format in range of cells being spicified at the beginnin og the for loop. Also inside the loop there is code where it remove all underlining in the range of cells specified. This loop does contain cell D18 HW 5 - ggplots & Regressions hyperlink because the teacher want us to not include the hyperlink attached to the text "HW 5 - ggplots & Regressions".
+The second for loop in this VBA code loops through the range of cells in column D from D3 to D40. There is an if statement that checks if there is a cell with a hyperlink attached first, then it can change that particular cell into the markdown link format in the range of cells at the beginning of the loop. Also, there is code that removes all underlining in of cells specified. This loop does contain cell D18 HW 5 - ggplots & Regressions hyperlink because the teacher wants us to exclude the hyperlink attached to the text "HW 5 - ggplots & Regressions".
 
 
 ## This code is for removing text from a certain cell
@@ -88,15 +88,14 @@ The second for loop in this vba code loops through the range of cell in column D
     
     End Sub`
 
-This code remove a the Dead Fish Paper text from the original excel file in cell D16 to blank text.
-
+The VBA code finds cell D16 in the excel sheet. It will search for the text "Dead Fish Paper" in that cell, then it can remove that text from the cell.
 
 ## This code is for removing a single hyperlink for one cell only
     `Public Sub removehyperlink()
         Range("D18").Hyperlinks.Delete
     End Sub`
 
-This code remove a hyperlink for Cell D18 in the excel sheet.
+The VBA code finds cell D18 in the excel sheet. It will remove the hyperlink attached to the text "HW 5 - ggplots & Regressions".
 
 ## This code changes the selected cells into a markdown table format.
     `Public Sub markdown()
@@ -214,11 +213,11 @@ This code remove a hyperlink for Cell D18 in the excel sheet.
 
         End Sub`
 
-The first loop counts number of columns in the selected range of row the user have selected.
+The first loop counts the number of columns in the selected range of rows the user has selected.
 
-The second for loop find the maximum length for each column in the slected range of cells. Inside the for loop we are comparing the currentcolumnwidth length to the text length of the next column. If the text length of the next column is greater then the currentcolumnwidth length. It now set that new length to the currentcolumnwidth variable. There is counter the count up the column by one each time it loops. This repeat over and over again until its finds all of the maximum length for cell in each column in the selected range of row the user have selected.
+The second loop finds the maximum length for each column in the selected range of cells. We are comparing the current column width length to the text length of the next column. The text length of the next column is greater than the current column width length. It can now set that new length to the current column width. A counter counts the number of columns by one each time it loops.
 
-The third for loop uses the previous for loop to change the selected range of column and cell into the markdown table format. Inside for loop has a for loop that checks if the cell need to add extra spaces to even up the table. This for loop also add the signiture symbol "|" of markdown table in the biginning and the end of each cell in each row. The for loop also checks for if the row of cell is header. The header part requires a if statement to checks the currentcolumnwidth text length of the column first before adding the "|" , "-", and the "-|". 
+The third loop uses the previous loop to change the selected range of column and cell into the markdown table format. A loop checks if it needs to add extra spaces to even up the table. This loop adds the signature symbol "|" of the markdown table at the beginning and the end of each cell. The for loop also checks if there is a header. The header part requires an if statement to check the current column width text length of the column first before its adds the signature symbol |, -, and the -|. 
 
 <h1> User Guide to open macros </h1> 
 
