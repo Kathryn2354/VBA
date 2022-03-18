@@ -256,7 +256,7 @@ The third loop uses the previous loop to change the selected range of column and
 
 <h3>Step 6</h3>
 
-<p>once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
+<p>Once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
 
 ![image](https://user-images.githubusercontent.com/96843197/158246914-e0540511-90c7-49e8-8490-ab46966f2ca2.png)
 ![image](https://user-images.githubusercontent.com/96843197/158247018-d67dd170-7ee2-458a-be79-f2755a7942db.png)
@@ -269,13 +269,13 @@ The third loop uses the previous loop to change the selected range of column and
 
 <h3>Step 8</h3>
 
-<p>type in the code in the module in the microsoft visual basic of application window</p>
+<p>Type in the code in the module in the microsoft visual basic of application window</p>
 
 <h2> This is for those who have the developer ribbon in the excel ribbon</h2>
     
 <h3>Step 1</h3>
 
-<p>open up a blank excel sheet.</p>
+<p>Open up a blank excel sheet.</p>
 
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/96843197/158261779-51a45d6d-ccb5-4aab-90f7-d87ac053720d.png">
 
@@ -287,7 +287,7 @@ The third loop uses the previous loop to change the selected range of column and
 
 <h3>Step 3</h3> 
 
-<p>once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
+<p>Once you open up the developer tab you will see in the first box of the tab. you need to click on the macros this will take you to window will you can name your macros function.</p>
 
 ![image](https://user-images.githubusercontent.com/96843197/158246914-e0540511-90c7-49e8-8490-ab46966f2ca2.png)
 ![image](https://user-images.githubusercontent.com/96843197/158247018-d67dd170-7ee2-458a-be79-f2755a7942db.png)
@@ -300,7 +300,7 @@ The third loop uses the previous loop to change the selected range of column and
 
 <h3>Step 5</h3>
 
-<p>type in the code in the module in the microsoft visual basic of application window</p>
+<p>Type in the code in the module in the microsoft visual basic of application window</p>
 
 <h1>This is the table without the changes</h1>
 
