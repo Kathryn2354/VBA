@@ -221,7 +221,7 @@ The third loop uses the previous loop to change the selected range of column and
 
 <h1> User Guide to open macros </h1> 
 
-## this is for those who do not have the developer ribbon in the excel ribbon
+## This is for those who do not have the developer ribbon in the excel ribbon
 
 <h3>Step 1</h3>
 
